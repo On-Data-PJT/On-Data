@@ -1,0 +1,15 @@
+[project]
+name = "on-data"
+version = "0.1.0"
+description = "서울시 은둔·고립 청년 지원을 위한 우리동네 온기지도 시각화 프로젝트"
+readme = "README.md"
+
+requires-python = "==3.12.12"
+dependencies = []
+
+[project.scripts]
+on-data = "on_data:main"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
